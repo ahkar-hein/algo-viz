@@ -1,5 +1,6 @@
 import BubbleSortVisualizer from "./components/BubbleSortVisualizer";
 import SelectionSortVisualizer from "./components/SelectionSortVisualizer";
+import InsertionSortVisualizer from "./components/InsertionSortVisualizer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       </h1>
       <BubbleSortVisualizer />
       <SelectionSortVisualizer />
+      <InsertionSortVisualizer />
     </div>
   );
 }
